@@ -1,0 +1,22 @@
+.gallery {
+    text-align: center;
+    padding: 100px 0;
+    h3 {
+        color: $title-text;
+        font-family: $heading-font;
+        font-weight: 400;
+        font-size: 32px;
+        margin-bottom: 44px;
+    }
+}
+
+.gallery__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 40px;
+    img:hover {
+        cursor: pointer;
+        filter: brightness(0.5);
+    }
+}
+

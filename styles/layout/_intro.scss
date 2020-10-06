@@ -1,0 +1,41 @@
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro__column {
+    width: 50%;
+    img {
+        max-width: 100%;
+    }
+    h2 {
+        color: $title-text;
+        font-family: $heading-font;
+        font-size: 42px;
+        font-weight: 400;
+    }
+    h6 {
+        color: $highlight;
+        font-family: $body-font;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 15px;
+        color: $body-text;
+        margin: 44px 0 40px 0;
+        text-align: justify;
+    }
+}
+
+.intro__column--left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro__column--left__content {
+    margin: 0 17.5% 0 70px;
+}

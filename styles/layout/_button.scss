@@ -1,0 +1,17 @@
+.button {
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 30px;  
+    background-color: $highlight;
+    color: $white;
+    font-family: $body-font;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 0 55px;
+    height: 60px;
+    &:hover {
+        background-color: $highlight-hover;
+    }
+}  
