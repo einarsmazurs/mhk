@@ -138,3 +138,83 @@ input[name="r"] {
     right: 15%;
     z-index: 2;
 }
+
+@media screen and (max-width: 1366px) {
+    .slider__main {
+        .slider__background {
+            height: unset;
+        }
+        height: unset;
+    }
+    .cta {
+        transform: translate(-50%, 50%);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .testimonials {
+        height: 540px;
+    }
+    .slider__testimonial--slide {
+        padding: 56px 0;
+    }
+}
+
+@media screen and (max-width: 1152px) {
+    .cta {
+        transform: translate(-50%, 25%);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cta {
+        transform: translate(-50%, 100%);
+        h1 {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .testimonials {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slider__testimonial--slide {
+        h2 {
+            font-size: 30px;
+        }
+        p {
+            margin: 37px auto 28px auto;
+        }
+    }
+    .slider-arrow__left {
+        transform: translateY(300%);
+    }
+    .slider-arrow__right {
+        transform: translateY(300%);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slider-arrow__left {
+        left: 5%
+    }
+    .slider-arrow__right {
+        right: 5%
+    }
+}
+
+@media screen and (max-width: 498px) {
+    .cta {
+        transform: translate(-50%, 50%);
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .slider__main--buttons {
+        display: none;
+    }
+}

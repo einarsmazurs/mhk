@@ -32,3 +32,12 @@ prev.addEventListener("click", (e) => {
 next.addEventListener("click", (e) => {
   nextSlide();
 });
+
+function mobileToggle() {
+    var x = document.getElementById("mobileToggle");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}

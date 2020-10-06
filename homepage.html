@@ -37,6 +37,16 @@
                 </div>
             </div>
         </nav>
+        <nav class="header__navbar--mobile">
+            <button class="header__navbar--mobile__toggler" onclick="mobileToggle()"><span></span></button>
+            <div id="mobileToggle" class="header__navbar--mobile__menu">
+				<a>Shop</a>
+				<a>Plan my kitchen</a>
+				<a>About us</a>
+				<a>Gallery</a>
+				<a>My order <img src="assets/icon-shopping-cart.png" alt="Shopping cart icon" /></a>
+			</div>
+        </nav>
     </header>
     <section>
         <div class="slider__main">
@@ -75,11 +85,11 @@
         </div>
     </section>
     <section class="intro">
-        <div class="intro__column">
+        <div class="intro__column intro__column--left">
             <img src="assets/intro.png" alt="Intro image" />
         </div>
-        <div class="intro__column intro__column--left">
-            <div class="intro__column--left__content">
+        <div class="intro__column intro__column--right">
+            <div class="intro__column--right__content">
                 <h6>Quality craftsmanship from build to deliver</h6>
                 <h2>Discover the beauty of a handmade kitchen</h2>
                 <p>
@@ -203,7 +213,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer__navbar--column">
+                <div class="footer__navbar--column footer__navbar--column-last">
                     <h4>Follow</h4>
                     <ul class="footer__navbar--column-social">
                         <li>
@@ -218,6 +228,20 @@
                     </ul>
                 </div>
             </nav>
+            <div class="footer__navbar--column-social__small">
+                <h4>Follow</h4>
+                <ul class="footer__navbar--column-social">
+                    <li>
+                        <a><img src="assets/icon-facebook-fill.png" alt="Facebook icon" /></a>
+                    </li>
+                    <li>
+                        <a><img src="assets/icon-twitter-fill.png" alt="Twitter icon" /></a>
+                    </li>
+                    <li>
+                        <a><img src="assets/icon-instagram-fill.png" alt="Instagram icon" /></a>
+                    </li>
+                </ul>
+            </div>
             <div class="footer__copyright">
                 <p>Copyright Online MTC Home Kitchens 2018 - All rights reserved.</p>
                 <p>Responsive website design, Development & Hosting by mtc.</p>

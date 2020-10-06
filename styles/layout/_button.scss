@@ -1,7 +1,10 @@
-.button {
-    outline: 0;
+button {
     border: 0;
+    outline: 0;
     cursor: pointer;
+}
+
+.button {
     border-radius: 30px;  
     background-color: $highlight;
     color: $white;
@@ -15,3 +18,10 @@
         background-color: $highlight-hover;
     }
 }  
+
+@media screen and (max-width: 600px) {
+    .button {
+        padding: 0 15px;
+        height: 40px;
+    }
+}

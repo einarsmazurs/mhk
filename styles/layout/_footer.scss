@@ -76,3 +76,41 @@ footer {
     }
 }
 
+.footer__navbar--column-social__small {
+    display: none;
+    h4 {
+        color: $white;
+        font-family: $heading-font;
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 44px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__navbar {
+        text-align: center;
+    }
+    .footer__navbar--column-last {
+        display: none;
+    }
+    .footer__navbar--column-social__small {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .footer__navbar--link a {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__navbar--link a {
+        font-size: 10px;
+    }
+    .footer__copyright p {
+        font-size: 11px;
+    }
+}
