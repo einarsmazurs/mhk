@@ -445,15 +445,27 @@ input[name="r"] {
 
 @media screen and (max-width: 992px) {
   .cta {
-    transform: translate(-50%, 100%); }
-    .cta h1 {
-      display: none; } }
+    transform: translate(-50%, 25%); } }
 
 @media screen and (max-width: 900px) {
   .testimonials {
-    height: 600px; } }
+    height: 600px; }
+  .cta {
+    transform: translate(-50%, 25%); }
+    .cta h6 {
+      font-size: 12px;
+      width: max-content;
+      margin-bottom: 4px; }
+    .cta h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      line-height: 48px; } }
 
 @media screen and (max-width: 768px) {
+  .cta {
+    transform: translate(-50%, 100%); }
+    .cta h6, .cta h1 {
+      display: none; }
   .slider__testimonial--slide h2 {
     font-size: 30px; }
   .slider__testimonial--slide p {

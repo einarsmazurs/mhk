@@ -168,10 +168,7 @@ input[name="r"] {
 
 @media screen and (max-width: 992px) {
     .cta {
-        transform: translate(-50%, 100%);
-        h1 {
-            display: none;
-        }
+        transform: translate(-50%, 25%);
     }
 }
 
@@ -179,9 +176,28 @@ input[name="r"] {
     .testimonials {
         height: 600px;
     }
+    .cta {
+        transform: translate(-50%, 25%);
+        h6 {
+            font-size: 12px;
+            width: max-content;
+            margin-bottom: 4px;
+        }
+        h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            line-height: 48px;
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .cta {
+        transform: translate(-50%, 100%);
+        h6, h1 {
+            display: none;
+        } 
+    }
     .slider__testimonial--slide {
         h2 {
             font-size: 30px;
