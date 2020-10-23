@@ -1,4 +1,4 @@
 Work In LLC assignment
 
-Live: https://mhk.imfast.io/homepage.html
+Live: https://einarsmazurs.github.io/mhk/
 
