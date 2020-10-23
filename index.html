@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MTC Home Kitchens</title>
+    <meta name="description" content="Test assignment for Work In LLC">
+    <meta name="author" content="Einars Mazurs">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="header__navbar">
+            <div class="wrapper">
+                <div class="header__navbar--container">
+                    <ul class="header__navbar--social">
+                        <li><a><img src="assets/icon-facebook.png" alt="Facebook icon" /></a></li>
+                        <li><a><img src="assets/icon-twitter.png" alt="Twitter icon" /></a></li>
+                        <li><a><img src="assets/icon-instagram.png" alt="Instagram icon" /></a></li>
+                    </ul>
+                    <ul class="header__navbar--links header__navbar--links-left">
+                        <li><a>Shop</a></li>
+                        <li><a>Plan my kitchen</a></li>
+                    </ul>
+                    <img class="logo--main" src="assets/logo-main.svg" alt="MHK logo" />
+                    <ul class="header__navbar--links header__navbar--links-right">
+                        <li><a>About us</a></li>
+                        <li><a>Gallery</a></li>
+                    </ul>
+                    <a class="header__navbar--links-order">
+                        My order <img src="assets/icon-shopping-cart.png" alt="Shopping cart icon" />
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <nav class="header__navbar--mobile">
+            <button class="header__navbar--mobile__toggler" onclick="mobileToggle()"><span></span></button>
+            <div id="mobileToggle" class="header__navbar--mobile__menu">
+				<a>Shop</a>
+				<a>Plan my kitchen</a>
+				<a>About us</a>
+				<a>Gallery</a>
+				<a>My order <img src="assets/icon-shopping-cart.png" alt="Shopping cart icon" /></a>
+			</div>
+        </nav>
+    </header>
+    <section>
+        <div class="slider__main">
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <input type="radio" name="r" id="r3">
+            <div class="slider__main--slide s1">
+                <img class="slider__background" src="assets/slider-background.png" alt="Slider background">
+                <div class="cta">
+                    <h6>Design and order your new kitchen online today</h6>
+                    <h1>Bespoke & made to measure handmade kitchen design</h1>
+                    <button class="button">Order now</button>
+                </div>
+            </div>
+            <div class="slider__main--slide s2">
+                <img class="slider__background" src="assets/slider-background.png" alt="Slider background">
+                <div class="cta">
+                    <h6>Design and order your new kitchen online today</h6>
+                    <h1>Bespoke & made to measure handmade kitchen design (2)</h1>
+                    <button class="button">Order now</button>
+                </div>
+            </div>
+            <div class="slider__main--slide s3">
+                <img class="slider__background" src="assets/slider-background.png" alt="Slider background">
+                <div class="cta">
+                    <h6>Design and order your new kitchen online today</h6>
+                    <h1>Bespoke & made to measure handmade kitchen design (3)</h1>
+                    <button class="button">Order now</button>
+                </div>
+            </div>
+            <div class="slider__main--buttons">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+            </div>
+        </div>
+    </section>
+    <section class="intro">
+        <div class="intro__column intro__column--left">
+            <img src="assets/intro.png" alt="Intro image" />
+        </div>
+        <div class="intro__column intro__column--right">
+            <div class="intro__column--right__content">
+                <h6>Quality craftsmanship from build to deliver</h6>
+                <h2>Discover the beauty of a handmade kitchen</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget
+                    est sit amet sapien venenatis maximus vel in urna. Nam mauris arcu,
+                    feugiat in finibus vitae, sollicitudin id purus. Ut imperdiet, magna
+                    eu pharetra tincidunt, mauris purus ultrices.
+                </p>
+                <button class="button">About us</button>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <div class="wrapper">
+            <div class="slider__testimonial">
+                <button class="slider-arrow slider-arrow__left"><img src="assets/prev.png" alt="Arrow left"></button>
+            <button class="slider-arrow slider-arrow__right"><img src="assets/next.png" alt="Arrow right"></button>
+                <div class="slider__testimonial--slide current">
+                    <h6>What our customer say</h6>
+                    <h2>Over 35 years experience designing</h2>
+                    <p>
+                        Since my first contact I have received a very high level of customer service and advice with my
+                        kitchen plans. Ben responded very quickly to all of my emails and delivery of the kitchen was as
+                        planned.
+                    </p>
+                    <p class="testimonial__author">Jane, Dundee</p>
+                    <button class="button">Frequently asked questions</button>
+                </div>
+                <div class="slider__testimonial--slide">
+                    <h6>What our customer say</h6>
+                    <h2>Over 35 years experience designing (2)</h2>
+                    <p>
+                        Since my first contact I have received a very high level of customer service and advice with my
+                        kitchen plans. Ben responded very quickly to all of my emails and delivery of the kitchen was as
+                        planned.
+                    </p>
+                    <p class="testimonial__author">Jane, Dundee</p>
+                    <button class="button">Frequently asked questions</button>
+                </div>
+                <div class="slider__testimonial--slide">
+                    <h6>What our customer say</h6>
+                    <h2>Over 35 years experience designing (3)</h2>
+                    <p>
+                        Since my first contact I have received a very high level of customer service and advice with my
+                        kitchen plans. Ben responded very quickly to all of my emails and delivery of the kitchen was as
+                        planned.
+                    </p>
+                    <p class="testimonial__author">Jane, Dundee</p>
+                    <button class="button">Frequently asked questions</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="wrapper">
+            <div class="gallery">
+                <h3>Customer Gallery</h3>
+                <div class="gallery__grid">
+                    <img src="assets/image-1.png" alt="Customer gallery image" />
+                    <img src="assets/image-2.png" alt="Customer gallery image" />
+                    <img src="assets/image-3.png" alt="Customer gallery image" />
+                    <img src="assets/image-4.png" alt="Customer gallery image" />
+                </div>
+                <button class="button">View more</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="wrapper">
+            <div class="footer__logo">
+                <span>
+                    <img class="logo--main" src="assets/logo-main.svg" alt="MHK logo" />
+                </span>
+            </div>
+            <nav class="footer__navbar">
+                <div class="footer__navbar--column">
+                    <h4>About</h4>
+                    <ul>
+                        <li class="footer__navbar--link">
+                            <a>Shop</a>
+                        </li>
+                        <li class="footer__navbar--link">
+                            <a>Plan my kitchen</a>
+                        </li>
+                        <li class="footer__navbar--link">
+                            <a>About us</a>
+                        </li>
+                        <li class="footer__navbar--link">
+                            <a>Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__navbar--column">
+                    <h4>Service</h4>
+                    <ul>
+                        <li class="footer__navbar--link">
+                            <a>FAQ</a>
+                        </li>
+                        <li class="footer__navbar--link">
+                            <a>Contact</a>
+                        </li>
+                        <li class="footer__navbar--link">
+                            <a>How to buy</a>
+                        </li>
+                        <li class="footer__navbar--link">
+                            <a>Downloads</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__navbar--column">
+                    <h4>Info</h4>
+                    <ul>
+                        <li class="footer__navbar--link">
+                            <a>Delivery</a>
+                        </li>
+                        <li class="footer__navbar--link">
+                            <a>Terms</a>
+                        </li>
+                        <li class="footer__navbar--link">
+                            <a>Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__navbar--column footer__navbar--column-last">
+                    <h4>Follow</h4>
+                    <ul class="footer__navbar--column-social">
+                        <li>
+                            <a><img src="assets/icon-facebook-fill.png" alt="Facebook icon" /></a>
+                        </li>
+                        <li>
+                            <a><img src="assets/icon-twitter-fill.png" alt="Twitter icon" /></a>
+                        </li>
+                        <li>
+                            <a><img src="assets/icon-instagram-fill.png" alt="Instagram icon" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="footer__navbar--column-social__small">
+                <h4>Follow</h4>
+                <ul class="footer__navbar--column-social">
+                    <li>
+                        <a><img src="assets/icon-facebook-fill.png" alt="Facebook icon" /></a>
+                    </li>
+                    <li>
+                        <a><img src="assets/icon-twitter-fill.png" alt="Twitter icon" /></a>
+                    </li>
+                    <li>
+                        <a><img src="assets/icon-instagram-fill.png" alt="Instagram icon" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__copyright">
+                <p>Copyright Online MTC Home Kitchens 2018 - All rights reserved.</p>
+                <p>Responsive website design, Development & Hosting by mtc.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/sliders.js"></script>
+</body>
+
+</html>
