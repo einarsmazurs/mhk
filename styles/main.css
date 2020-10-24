@@ -426,10 +426,6 @@ input[name="r"] {
   z-index: 2; }
 
 @media screen and (max-width: 1366px) {
-  .slider__main {
-    height: unset; }
-    .slider__main .slider__background {
-      height: unset; }
   .cta {
     transform: translate(-50%, 50%); } }
 
