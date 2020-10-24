@@ -51,10 +51,13 @@ input[name="r"] {
 
 .cta {
     position: absolute;
-    top: 0%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, 100%);
-    text-align: center;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     h1 {
         color: $white;
         font-family: $heading-font;            
@@ -139,18 +142,6 @@ input[name="r"] {
     z-index: 2;
 }
 
-@media screen and (max-width: 1366px) {
-    // .slider__main {
-    //     .slider__background {
-    //         height: unset;
-    //     }
-    //     height: unset;
-    // }
-    .cta {
-        transform: translate(-50%, 50%);
-    }
-}
-
 @media screen and (max-width: 1200px) {
     .testimonials {
         height: 540px;
@@ -160,24 +151,11 @@ input[name="r"] {
     }
 }
 
-@media screen and (max-width: 1152px) {
-    .cta {
-        transform: translate(-50%, 25%);
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .cta {
-        transform: translate(-50%, 25%);
-    }
-}
-
 @media screen and (max-width: 900px) {
     .testimonials {
         height: 600px;
     }
     .cta {
-        transform: translate(-50%, 25%);
         h6 {
             font-size: 12px;
             width: max-content;
@@ -192,9 +170,6 @@ input[name="r"] {
 }
 
 @media screen and (max-width: 768px) {
-    .cta {
-        transform: translate(-50%, 15%);
-    }
     .slider__testimonial--slide {
         h2 {
             font-size: 30px;
@@ -220,14 +195,3 @@ input[name="r"] {
     }
 }
 
-@media screen and (max-width: 498px) {
-    .cta {
-        transform: translate(-50%, 50%);
-    }
-}
-
-@media screen and (max-width: 460px) {
-    .slider__main--buttons {
-        display: none;
-    }
-}
