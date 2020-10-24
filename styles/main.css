@@ -356,7 +356,8 @@ input[name="r"] {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  text-align: center; }
   .cta h1 {
     color: #FFFFFF;
     font-family: "Helvetica", sans-serif;
