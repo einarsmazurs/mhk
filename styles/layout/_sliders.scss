@@ -193,10 +193,7 @@ input[name="r"] {
 
 @media screen and (max-width: 768px) {
     .cta {
-        transform: translate(-50%, 100%);
-        h6, h1 {
-            display: none;
-        } 
+        transform: translate(-50%, 15%);
     }
     .slider__testimonial--slide {
         h2 {
